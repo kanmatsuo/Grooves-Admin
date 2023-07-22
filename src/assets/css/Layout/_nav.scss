@@ -1,0 +1,97 @@
+.menuBar {
+    width: 290px;
+    height: 100vh;
+    overflow-y: scroll;
+    background: linear-gradient(-220deg, #ffc400 0%, #ff1b58 76.78%, #550087 100%);
+    box-shadow: 5px 0px 6px rgba(0, 0, 0, 0.16);
+    padding: 20px;
+
+    @include media('sp') {
+        width: 100%;
+        height: auto;
+    }
+
+    .logoWrapper {
+        text-align: center;
+        margin: 30px 0 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .groovesAdminMenu {
+        color: white;
+        max-width: 190px;
+        margin: auto;
+
+        @include media('sp') {
+            max-width: 100%;
+        }
+
+        li {
+            margin-bottom: 12px;
+            font-family: 'faricynew-regular';
+            font-weight: 500;
+
+            a {
+                padding: 5px 10px;
+                display: block;
+                border-radius: 5px;
+                position: relative;
+                transition: all .5s;
+
+                &.active,
+                &:hover {
+                    background: linear-gradient(-5deg, #4d1c74 0%, #9a38e7 48.33%, #4d1c74 100%);
+                }
+
+                &::after {
+                    font-family: primeicons;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-feature-settings: normal;
+                    content: "\e901";
+                    font-size: 12px;
+                    position: absolute;
+                    right: 5px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+
+                i {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+
+    .groovesAdminPanel {
+        border-radius: 5px;
+        background: linear-gradient(-220deg, #fb0 0%, #ff4c99 49.16%, #480087 100%);
+        border: 2px solid #fff;
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+        margin-bottom: 40px;
+        color: white;
+        padding: 8px 20px;
+
+        .val {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 10px 0;
+            button {
+                background: none;
+                border: none;
+                outline: none;
+                padding: 0;
+                color: white;
+            }
+            span {
+                white-space: nowrap;
+            }
+        }
+    }
+
+    .walletConnect {
+        width: 100%;
+    }
+}

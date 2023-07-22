@@ -1,0 +1,223 @@
+.footer {
+    background: #020c31;
+}
+
+.copyright {
+    border-top: 1px solid hsla(0, 0%, 100%, .1);
+    background: #020a27;
+}
+
+.bg-footer {
+    background: url(../images/backgrounds/footer.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.bg-lgoin_form {
+    background: url(../images/backgrounds/cta.jpg);
+    background-size: cover;
+}
+
+.user-setting-dropdown {
+    li {
+        margin-left: 0;
+
+        &.divider {
+            border-color: rgb(31 41 55) !important;
+            border-top: 1px solid;
+        }
+    }
+}
+
+.walletConnectionAlert {
+    position: fixed;
+    left: 18px;
+    bottom: 18px;
+    z-index: 1000 !important;
+    padding: 18px 22px;
+    border-radius: 0px;
+    border-top: 2px solid #f00;
+    background-color: rgba(255, 0, 0, .3);
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.profileEdit {
+    background: url(../images/backgrounds/profile-edit.jpg);
+}
+
+.mapBg {
+    background: url(../images/backgrounds/map-bg.png);
+}
+
+.p-button:focus {
+    box-shadow: none;
+}
+
+.tiny-slide {
+    img {
+        width: 100%;
+        height: 365px;
+        object-fit: cover;
+    }
+}
+
+.slick-arrow {
+    display: none !important;
+}
+
+.p-datatable .p-datatable-tbody>tr {
+    background: transparent;
+}
+
+.p-datatable .p-datatable-tbody>tr>td {
+    border: none;
+    vertical-align: middle;
+}
+
+.p-datatable .p-datatable-tbody>tr.p-highlight {
+    background: transparent;
+}
+
+.p-datatable .p-datatable-tbody>tr.p-highlight td {
+    color: rgb(124, 58, 237) !important;
+}
+
+.p-datatable .p-datatable-thead>tr>th {
+    background: transparent;
+    // border: none;
+}
+
+.p-dialog .p-dialog-header .p-dialog-header-icon:last-child {
+    display: none;
+}
+
+.p-dialog .p-dialog-footer {
+    padding-top: 1.5rem;
+}
+
+.bg-center.bg-no-repeat {
+    background-position: center center;
+    background-size: cover;
+}
+
+.bar-bg-1 {
+    background: url(../images/backgrounds/image_00.jpg);
+}
+
+.bar-bg-2 {
+    background: url(../images/backgrounds/image_1.jpg);
+}
+
+.bar-bg-3 {
+    background: url(../images/backgrounds/image_10.jpg);
+}
+
+.bar-bg-4 {
+    background: url(../images/backgrounds/image_11.jpg);
+}
+
+.bar-bg-5 {
+    background: url(../images/backgrounds/image_12.jpg);
+}
+
+.bar-bg-6 {
+    background: url(../images/backgrounds/image_13.jpg);
+}
+
+.bar-bg-7 {
+    background: url(../images/backgrounds/image_3.jpg);
+}
+
+.bar-bg-8 {
+    background: url(../images/backgrounds/image_4.jpg);
+}
+
+.bar-bg-9 {
+    background: url(../images/backgrounds/image_5.jpg);
+}
+
+.bar-bg-10 {
+    background: url(../images/backgrounds/image_6.jpg);
+}
+
+.bar-bg-11 {
+    background: url(../images/backgrounds/image_7.jpg);
+}
+
+.bar-bg-12 {
+    background: url(../images/backgrounds/image_8.jpg);
+}
+
+.bar-bg-13 {
+    background: url(../images/backgrounds/image_9.jpg);
+}
+
+.p-dialog .p-dialog-content {
+    background: #01071d;
+}
+
+.p-dialog .p-dialog-header {
+    color: white;
+    background: #01071d;
+    border-bottom: 1px solid #fff;
+}
+
+.p-dialog .p-dialog-footer {
+    background: #01071d;
+}
+
+.rounded-lg.shadow-md.dark.transition-all.duration-500 {
+    display: none !important;
+}
+
+.slick-slide img {
+    display: block;
+    height: 230px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.relative.overflow-hidden.rounded-lg img {
+    display: block;
+    height: 230px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.gachabox {
+    height: 100%;
+
+    .slick-list {
+        height: 100%;
+
+        .slick-track {
+            height: 100%;
+
+            .slick-slide {
+                &>div {
+                    height: 100%;
+
+                    .tiny-slide {
+                        height: 100%;
+
+                        &>div {
+                            height: 100%;
+
+                            .group {
+                                height: 100%;
+
+                                img {
+                                    width: 100%;
+                                    object-fit: cover;
+                                    height: 365px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

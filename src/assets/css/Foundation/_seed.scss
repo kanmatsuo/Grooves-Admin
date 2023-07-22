@@ -1,0 +1,14 @@
+@each $key,
+$value in $colors {
+    .bg_#{$key} {
+        background: #{$value};
+    }
+
+    .text_#{$key} {
+        color: #{$value};
+    }
+
+    .border_#{$key} {
+        border-color: #{$value};
+    }
+}
